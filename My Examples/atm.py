@@ -6,7 +6,7 @@ while True:
     print("3: Para Çek")
     print("4: Çıkış")
 
-    islem = input('Bir İşlem Seçiniz: ')
+    islem = input('Bir İşlem Seçiniz: \n')
     if islem == '1':
         print(f"Mevcut Bakiyeniz: {bakiye} TL")
     elif islem == '2':
